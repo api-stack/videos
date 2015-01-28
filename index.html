@@ -1,64 +1,16 @@
 ---
 layout: page
-title: Videos API
+title: Videos APIs - Home
 ---
 
-<div class="swagger-section">
-	
-  <script type="text/javascript">
-  
-    $(function () {
-      var url = window.location.search.match(/url=([^&]+)/);
-  if (url && url.length > 1) {
-    url = url[1];
-  } else {
-    url = "http://videos.api.apievangelist.com/definitions/videos";
-  }
-  
-  window.swaggerUi = new SwaggerUi({
-    url: url,
-    dom_id: "swagger-ui-container",
-    supportedSubmitMethods: ['get', 'post', 'put', 'delete'],
-    onComplete: function(swaggerApi, swaggerUi){
-      log("Loaded SwaggerUI");
-      if(typeof initOAuth == "function") {
-        /*
-        initOAuth({
-          clientId: "your-client-id",
-          realm: "your-realms",
-          appName: "your-app-name"
-        });
-        */
-      }
-      $('pre code').each(function(i, e) {
-        hljs.highlightBlock(e)
-      });
-    },
-    onFailure: function(data) {
-      log("Unable to Load SwaggerUI");
-    },
-    docExpansion: "none",
-    sorter : "alpha",
-    docExpansion: "list"
-  });
+<h1>Videos APIs</h1>
+<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-videos-at.png" alt="" width="200" align="right" /></p>
+<p>I find the videos API space a fascinating area to research when it comes to APIs. If you think about it, videos APIs are kind of ironic, because videos is based upon some pretty solid standards like SMTP, POP, and IMAP, where APIs are nothing more than just a philosophy, and a kind of wild west when it comes to standardization. Yet you see some pretty interesting approaches to providing videos infrastructure which employs, and often resemble the videos standards, but put web APIs to work to actually do the heavy lifting.</p>
+<p>Videos is most definitely one of the most important building blocks of the most important platform out there, the Internet. I think it is only fitting that this important resources is available as an essential API resource, translating videos into the next generation of not just the web, but the programmable web. Right alongside SMS, videos is a cornerstone of messaging on the Internet, and the mobile Internet.</p>
+<p>As with other areas of the my messaging research, I looked at a lot of APIs, and many of them just didn&rsquo;t meet the basic requirements of an API I'd showcase.  The seven I have showcased represent the best of what I've found, worthy of showcasing, and contributing to an overall blueprint of how to do videos APIs. I think that these providers offer patterns that don't just represent how to do videos APIs, but evolve standards, or maybe augment them with a web API to extend and move forward some common resources we depend on every day.</p>
+<p>Let&rsquo;s walk through the seven companies here, and take a look at the API resources they make available, and their approaches to the technology, business, and monetization of their APIs, then I can provide a little more summary on their approach, and potentially how this blueprint can be applied for other videos providers, and potentially wider API providers in considering their own approach.</p>
+<p><img style="border: 3px solid #000000; display: block; margin-left: auto; margin-right: auto;" src="https://s3.amazonaws.com/kinlane-productions/mailboxes-bw.jpg" alt="" width="550" align="middle" /></p>
 
-  // if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
-  /*
-    var apiKey = "myApiKeyXXXX123456789";
-    $('#input_apiKey').val(apiKey);
-    addApiKeyAuthorization();
-  */
-
-      window.swaggerUi.load();
-  });
-  
-  //thisTitle = document.getElementById('resource_default');
-  //alert(thisTitle);
-  </script>     
-	<div id="swagger-ui-container" class="swagger-ui-wrap"></div>
-</div>
-
-<p>This API is maintained by <a href="http://kinlane.com">Kin Lane</a> (<a href="https://twitter.com/kinlane">@kinlane</a>), the API Evangelist. If you have any questions, comments or there are APIs you'd like to see deployed, you can <a href="https://github.com/kinlane/videos/issues" target="_blank">submit them on this projects, Github repo issue management</a>. I use <a href="http://bit.ly/13esk6Q" target="_blank">3Scale API Infrastructure</a> to manage <a href="https://apievangelist.3scale.net/" target="_blank">access to my APIs</a>, across all parts of the <a href="http://apievangelist.com/network.html">API Evangelist network</a>.</p>
 <br /><br />
 <!-- 3scale -->
 <p align="center">
@@ -66,4 +18,4 @@ title: Videos API
     <img src="https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png" width="300" style="padding-bottom: 15px;" />
 </a>        
 </p>
-<!-- 3scale -->    
+<!-- 3scale -->  

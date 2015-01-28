@@ -1,1 +1,180 @@
-{"company":[{"id":"19","name":"Apiary.io","summary":"Apiary.io wants to make developing and implementing APIs a quicker process. Apiary.io site says they will also help you describe, test, manage and share your API with developers.\nI feel that API deployment services is a huge opportunity in this space, its good to see a provider step up that will help API owners deploy their APIs, as well as manage them.\nApiary.iois still in private Beta, so I can'","details":"Apiary.io wants to make developing and implementing APIs a quicker process. Apiary.io site says they will also help you describe, test, manage and share your API with developers.\nI feel that API deployment services is a huge opportunity in this space, its good to see a provider step up that will help API owners deploy their APIs, as well as manage them.\nApiary.iois still in private Beta, so I can't take it for a spin yet. It will be interesting to learn more about what this latest API service provider can bring to the table.","website":"http:\/\/apiary.io\/","twitter":"https:\/\/twitter.com\/apiaryio","github":"https:\/\/github.com\/apiaryio","blog":"http:\/\/blog.apiary.io\/","blogrss":"http:\/\/blog.apiary.io\/feed.xml","logo":"http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/apiary-io-logo.png","screenshot":"http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/serviceproviders\/apiary-screenshot.png","tags":"API Design"}],"published":"11\/09\/2013"}
+{
+	"company": [
+		{
+			"id": "172",
+			"name": "Context.IO",
+			"summary": "Context.IO, a Return Path company working to innovate on email conversations, collaboration and document exchange. Context.IO provides email APIs that makes it easy for application developers to retrieve information about emails and leverage it in applications. Context.IO provides a free access tier, as well as pay as you go pricing tiers for developers to use beyond that.",
+			"details": "Context.IO, a Return Path company working to innovate on email conversations, collaboration and document exchange. Context.IO provides email APIs that makes it easy for application developers to retrieve information about emails and leverage it in applications. Context.IO provides a free access tier, as well as pay as you go pricing tiers for developers to use beyond that.",
+			"website": "http://context.io/",
+			"twitter": "https://twitter.com/contextio",
+			"github": "https://github.com/contextio",
+			"apisjson": "http://theapistack.com/data/contextio/apis.json",
+			"blog": "http://blog.context.io/",
+			"blogrss": "http://blog.context.io/feed/",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/172_logo.png",
+			"logo_width": "150",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/api/screenshots/2367_context.io.png",
+			"tags": "Email,Email API,Messaging-Stack,Stack",
+			"apis": [
+				{
+					"id": "2367",
+					"name": "Context.IO Email API",
+					"website-url": "http://context.io/docs/2.0",
+					"swagger-url": "http://theapistack.com/data/contextio/contextio-email-api-swagger.json",
+					"documentation-url": ""
+				}
+			]
+		},
+		{
+			"id": "582",
+			"name": "Dyn",
+			"summary": "Dyn helps companies monitor, control, and optimize online infrastructure to improve end-user experience. Their Internet performance product suite includes Dyn Internet Intelligence, IP Transit Intelligence, Traffic Director, and DNS APIs. Dyn provides enterprise level sales and pricing for their DNS, and email services.",
+			"details": "Dyn helps companies monitor, control, and optimize online infrastructure to improve end-user experience. Their Internet performance product suite includes Dyn Internet Intelligence, IP Transit Intelligence, Traffic Director, and DNS APIs. Dyn provides enterprise level sales and pricing for their DNS, and email services.",
+			"website": "http://dyn.com/",
+			"twitter": "https://twitter.com/Dyn",
+			"github": "https://github.com/d21",
+			"apisjson": "http://theapistack.com/data/dyn/apis.json",
+			"blog": "http://research.dyn.com/",
+			"blogrss": "http://research.dyn.com/feed/",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/582_logo.png",
+			"logo_width": "150",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/api/screenshots/2437_dyndns.png",
+			"tags": "DNS,Email,Email API,Messaging-Stack,Stack",
+			"apis": [
+				{
+					"id": "2437",
+					"name": "Dyn Email API",
+					"website-url": "https://help.dyn.com/email-rest-methods-api/",
+					"swagger-url": "http://theapistack.com/data/dyn/dyn-email-api-swagger.json",
+					"documentation-url": ""
+				}
+			]
+		},
+		{
+			"id": "586",
+			"name": "Elastic Email",
+			"summary": "Elastic Email is an email delivery service for transactional and marketing email, operated by Geographical Media Inc, operating across United States and European data centers. Elastic Email provides services for sending, receiving, and storage of emails, with other supporting delivery, organization, and real-time tools, which includes APIs for managing metrics and account information. There is a free trial, with pay as you go, unit based pricing which includes multiple access tiers.",
+			"details": "Elastic Email is an email delivery service for transactional and marketing email, operated by Geographical Media Inc, operating across United States and European data centers. Elastic Email provides services for sending, receiving, and storage of emails, with other supporting delivery, organization, and real-time tools, which includes APIs for managing metrics and account information. There is a free trial, with pay as you go, unit based pricing which includes multiple access tiers.",
+			"website": "http://elasticemail.com",
+			"twitter": "https://twitter.com/elastic_email",
+			"github": "",
+			"apisjson": "http://theapistack.com/data/elastic-email/apis.json",
+			"blog": "http://elasticemail.com/blog",
+			"blogrss": "view-source:http://elasticemail.com/posts/rss/xml",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/586_logo.png",
+			"logo_width": "170",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/api/screenshots/2452_elastic_email.png",
+			"tags": "Cloud,Email,Email API,Messaging-Stack,Stack",
+			"apis": [
+				{
+					"id": "2452",
+					"name": "Elastic Email SMTP API",
+					"website-url": "https://elasticemail.com/api-documentation",
+					"swagger-url": "http://theapistack.com/data/elastic-email/elastic-email-smtp-api-swagger.json",
+					"documentation-url": ""
+				}
+			]
+		},
+		{
+			"id": "11403",
+			"name": "Inbox",
+			"summary": "Inbox provides modern RESTful APIs for working with multiple email providers, delivering email API aggregation services.Stop fighting the old protocols and focus on building great apps. Inbox provides APIs for sending, receiving, and storing email messages, including tagging, list management, and email sync tools. Inbox uses a pay as you go, tiered monetization strategy, allowing developers to pay for what they need as they grow their applications.",
+			"details": "Inbox provides modern RESTful APIs for working with multiple email providers, delivering email API aggregation services.Stop fighting the old protocols and focus on building great apps. Inbox provides APIs for sending, receiving, and storing email messages, including tagging, list management, and email sync tools. Inbox uses a pay as you go, tiered monetization strategy, allowing developers to pay for what they need as they grow their applications.",
+			"website": "https://www.inboxapp.com/",
+			"twitter": "https://twitter.com/inboxapp",
+			"github": "https://github.com/inboxapp",
+			"apisjson": "http://theapistack.com/data/inbox/apis.json",
+			"blog": "https://www.inboxapp.com/blog",
+			"blogrss": "https://www.inboxapp.com/blog/feed.atom",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/inbox-app-logo.png",
+			"logo_width": "150",
+			"screenshot": null,
+			"tags": "API Aggregation,Email,Email API,Messaging,Messaging-Stack",
+			"apis": [
+				{
+					"id": "11472",
+					"name": "Inbox API",
+					"website-url": "https://www.inboxapp.com/docs/api",
+					"swagger-url": "http://theapistack.com/data/inbox/inbox-api-swagger.json",
+					"documentation-url": ""
+				}
+			]
+		},
+		{
+			"id": "612",
+			"name": "Mailgun",
+			"summary": "Mailgun provides a web service for integrating email inboxes into apps. Providing APIs for sending, receiving, and storing APis, including tools for managing delivery, real-time integration, organizing, routing, and tracking on emails. Malign provides a free trial to learn about services, and pay as you go, unit based pricing to continue from there, including volume pricing for increased usage.",
+			"details": "Mailgun provides a web service for integrating email inboxes into apps. Providing APIs for sending, receiving, and storing APis, including tools for managing delivery, real-time integration, organizing, routing, and tracking on emails. Malign provides a free trial to learn about services, and pay as you go, unit based pricing to continue from there, including volume pricing for increased usage.",
+			"website": "http://mailgun.net",
+			"twitter": "https://twitter.com/#!/mail_gun",
+			"github": "https://github.com/mailgun",
+			"apisjson": "http://theapistack.com/data/mailgun/apis.json",
+			"blog": "http://blog.mailgun.net",
+			"blogrss": "https://twitter.com/unbounce",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/612_logo.png",
+			"logo_width": "150",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/api/screenshots/2714_mailgun.png",
+			"tags": "Email,Email API,Messaging-Stack,Stack",
+			"apis": [
+				{
+					"id": "2714",
+					"name": "Mailgun API",
+					"website-url": "http://documentation.mailgun.com/api_reference.html",
+					"swagger-url": "http://theapistack.com/data/mailgun/mailgun-api-swagger.json",
+					"documentation-url": ""
+				}
+			]
+		},
+		{
+			"id": "843",
+			"name": "Mailjet",
+			"summary": "Mailjet is an all-in-one solution to send, track and deliver both marketing and transactional emails, providing infrastructure for scaling and optimizing email deliverability. Mailjet can be accessed either via an easy-to-use online drag-and-drop interface or via APIs that allow developers to integrate the ability to send, receive, store emails, and track on delivery, organize and track on operations. Mailjet provides a free trial for developers, and then tiered, unit based pricing for API services after that.",
+			"details": "Mailjet is an all-in-one solution to send, track and deliver both marketing and transactional emails, providing infrastructure for scaling and optimizing email deliverability. Mailjet can be accessed either via an easy-to-use online drag-and-drop interface or via APIs that allow developers to integrate the ability to send, receive, store emails, and track on delivery, organize and track on operations. Mailjet provides a free trial for developers, and then tiered, unit based pricing for API services after that.",
+			"website": "http://www.mailjet.com",
+			"twitter": "https://twitter.com/mailjet",
+			"github": "https://github.com/mailjet",
+			"apisjson": "http://theapistack.com/data/mailjet/apis.json",
+			"blog": "http://blog.mailjet.com/",
+			"blogrss": "http://blog.mailjet.com/rss",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/843_logo.jpg",
+			"logo_width": "160",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/api/screenshots/4038_mailjet.png",
+			"tags": "Advertising,Campaign,Cloud,Email,Email API,Marketing,Marketing-Stack,Messaging-Stack,Metrics,Stack",
+			"apis": [
+				{
+					"id": "4038",
+					"name": "Mailjet Messages API",
+					"website-url": "http://dev.mailjet.com/email-api/v3/message/",
+					"swagger-url": "http://theapistack.com/data/mailjet/mailjet-messages-api-swagger.json",
+					"documentation-url": ""
+				}
+			]
+		},
+		{
+			"id": "142",
+			"name": "SendGrid",
+			"summary": "SendGrid is a cloud-based email service that delivers email on behalf of companies to increase deliverability and improve customer communications. Integration with new or existing email systems is done via SMTP or through a REST API. and provides metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam regulations. SendGrid offers pay as you go, unit based pricing with tiered levels of access, including volume pricing for larger integration needs.",
+			"details": "SendGrid is a cloud-based email service that delivers email on behalf of companies to increase deliverability and improve customer communications. Integration with new or existing email systems is done via SMTP or through a REST API. and provides metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam regulations. SendGrid offers pay as you go, unit based pricing with tiered levels of access, including volume pricing for larger integration needs.",
+			"website": "https://sendgrid.com/",
+			"twitter": "https://twitter.com/SendGrid",
+			"github": "https://github.com/sendgrid",
+			"apisjson": "http://theapistack.com/data/sendgrid/apis.json",
+			"blog": "http://blog.sendgrid.com/",
+			"blogrss": "http://feeds.feedburner.com/sendgrid/CDXr",
+			"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/142_logo.png",
+			"logo_width": "150",
+			"screenshot": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/api/screenshots/5963_sendgrid_smtp.png",
+			"tags": "Customer,Email,Email API,Marketing,Messaging-Stack,Newsletters,Reseller,Telephony,Tools,VOIP",
+			"apis": [
+				{
+					"id": "11400",
+					"name": "SendGrid Web API",
+					"website-url": "https://sendgrid.com/docs/API_Reference/Web_API/index.html",
+					"swagger-url": "http://theapistack.com/data/sendgrid/sendgrid-web-api-swagger.json",
+					"documentation-url": ""
+				}
+			]
+		}
+	],
+	"published": "01/27/2015"
+}

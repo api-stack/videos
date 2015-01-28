@@ -1,25 +1,26 @@
-title : Videos
-
-markdown: kramdown
-
-safe: true
-lsi: false
-pygments: true
-auto: true
-
-source: videos
-destination: videos
+title:        {"Videos"}
+url:          http://videos.apievangelist.com
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  videos:      'info@apievangelist.com'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-paginate: 10
-paginate_path: "/blog/page:num"
+paginate: 50
+paginate_path: "/news/page:num"
 
 production_url : http://videos.apievangelist.com
 
 BASE_PATH : http://videos.apievangelist.com
 
-archive_path: /archive.html
 categories_path : /categories.html
 tags_path : /tags.html
+
+oauthio : I_TRiPFUBHSp-3DxS5RjS9ub8sg
+org : kinlane
+repo : videos
